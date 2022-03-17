@@ -6,7 +6,7 @@ body, div, p, label, button {
   //font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif !important;
 }
 body{  
-  background-color: #445458 !important;
+  background-color: #3D5467 !important;
 }
 html {
   scrollbar-width: none; /* For Firefox */
@@ -26,16 +26,19 @@ html,body {
   color: #ff9100;
 
 }
+#constellation{
+  float: right;
+}
 #TitleText{
   color: white;
-  font-size: 3em;
+  font-size: 4em;
 }
 #DescriptionText{
   color: white;
   font-size: 1.2em;
 }
 #TitleText span{
-  color: red;
+  color: #F2A359;
 }
 
 .background_login {
@@ -49,7 +52,7 @@ html,body {
   display: inline-block !important;
   position: absolute !important;
   z-index: 2;
-  width: 50%;
+  width: 37%;
 }
 #layout_login #scene {
 }
